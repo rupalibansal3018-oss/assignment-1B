@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration Form</title>
+</head>
+<body>
+    <h2>Online Course Registration System</h2>
+    <form>
+        <label>Student Name:</label><br>
+        <input type="text" name="sname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option value="bca">BCA</option>
+            <option value="webdev">Btech</option>
+            <option value="java">MCA</option>
+            <option value="java">Mtech</option>
+
+        </select><br><br>
+
+        <label>Skills Known:</label><br>
+        <input type="checkbox" name="skill1" value="HTML"> HTML/CSS
+        <input type="checkbox" name="skill2" value="Java"> Java
+        <input type="checkbox" name="skill3" value="Python"> Python<br><br>
+
+        <label>Upload Resume / Document:</label><br>
+        <input type="file" name="resume"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html
